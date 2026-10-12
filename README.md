@@ -1,101 +1,97 @@
 Chef’s Menu Manager
 
-1. Project Overview
+Project Overview
 
-Chef’s Menu Manager is a React Native mobile application developed for the MAST5112 Part 2 coursework.
+Chef’s Menu Manager is a mobile application developed for the MAST5112 Part 2 coursework using React Native, TypeScript and Expo.
 
-The purpose of the application is to provide a simple and user-friendly way for a restaurant to add and view menu items. The application allows users to enter dish details and display multiple dishes in a menu list.
+The application allows users to add restaurant menu items and view them in a list. It provides a simple interface for entering dish details and includes input validation and feedback.
 
-2. Project Objectives
+Project Objectives
 
-The main objectives of this project are to:
+* Create a user-friendly mobile application.
+* Allow users to enter a dish name and description.
+* Allow users to select a course.
+* Capture the price of each dish.
+* Display multiple menu items.
+* Validate required fields and prices.
+* Provide error messages and success confirmations.
+* Display an empty-state message when no menu items have been added.
 
-* Develop a functional mobile application using React Native.
-* Create a clear and user-friendly interface.
-* Allow users to add menu items.
-* Capture the dish name, description, course and price.
-* Display multiple menu items in a list.
-* Validate required fields before accepting a menu item.
-* Provide appropriate error messages and success feedback.
-* Display an informative empty state when no menu items have been added.
-
-3. Technologies Used
+Technologies Used
 
 * React Native
 * Expo
 * TypeScript
 * Visual Studio Code
 * Git and GitHub
-* Expo Go for mobile testing
+* Expo Go
 
-4. Application Features
+Main Features
 
 Add Menu Items
 
-Users can enter a dish name, description, course and price.
+Users can enter the name, description, course and price of a dish.
 
 Course Selection
 
-Users can select the appropriate course for a dish, such as Starter, Main Course or Dessert.
+Users can categorise dishes by course, including Starter, Main Course and Dessert.
 
 Input Validation
 
-The application checks required fields and provides feedback when information is missing or invalid.
+The application checks required fields and validates prices before adding a dish.
 
 Menu Display
 
-Successfully added dishes are displayed in the menu list.
+Added menu items appear in a list, allowing users to view multiple dishes.
 
-Success Feedback
+Feedback Messages
 
-The application confirms when a dish has been added successfully.
+The application provides appropriate feedback when information is missing or a dish is added successfully.
 
 Empty State
 
-The application displays a message when the menu does not contain any dishes.
+An informative message is displayed when the menu contains no items.
 
-5. Installation and Setup
+Installation and Setup
 
-1. Install Node.js.
-2. Install Visual Studio Code.
-3. Download or clone this repository.
-4. Open the project folder in Visual Studio Code.
-5. Open a terminal in the project folder.
-6. Run the following command to install dependencies:
+1. Install Node.js and Visual Studio Code.
+2. Clone or download this repository.
+3. Open the project folder in Visual Studio Code.
+4. Open a terminal in the project directory.
+5. Install the dependencies:
     npm install
-7. Start the Expo development server:
+6. Start the Expo development server:
     npx expo start
-8. Scan the displayed QR code using Expo Go on a compatible mobile device.
+7. Open Expo Go on a compatible mobile device and scan the QR code.
 
-6. Testing
+Testing
 
-The application should be tested to confirm that:
+The application should be tested to verify:
 
-* The application opens successfully.
+* The app opens successfully.
 * Required-field validation works.
 * Invalid prices are rejected.
 * Menu items can be added.
-* Added dishes appear in the menu list.
-* Multiple menu items can be displayed.
-* Success messages appear after adding dishes.
-* An empty-state message appears when the menu is empty.
+* Multiple dishes appear in the list.
+* Success feedback is displayed.
+* The empty-state message appears when the menu is empty.
 
-7. Scope and Limitations
+Scope and Limitations
 
-This version focuses on adding and viewing menu items, as required for Part 2 of the coursework.
+This version focuses on adding and viewing menu items, as required for Part 2.
 
-Features such as editing, deleting, searching, filtering and menu statistics are outside the scope of this version.
+Editing, deleting, searching, filtering and menu statistics are outside the scope of this version.
 
-Menu data is managed within the running application. Unless persistent storage has been implemented separately, added menu items may be lost when the application restarts.
+Menu items are managed while the application is running. Unless persistent storage has been implemented separately, the items may not remain after the application restarts.
 
-8. Coursework Information
+Coursework Information
 
 Module: MAST5112
-Project: Chef’s Menu Manager
 Assessment: Part 2
-Student: Safiya Abdool
+Project: Chef’s Menu Manager
+Student Name: Safiya Abdool
 Student Number: ST10540572
 
-9. Demonstration Video
+Demonstration Video
 
-YouTube demonstration: [Insert your Unlisted YouTube video link here]
+YouTube Unlisted Link: [Insert your video link here]
